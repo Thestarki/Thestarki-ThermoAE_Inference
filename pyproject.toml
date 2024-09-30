@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "autoencoder-inf"
+version = "0.1.0"
+description = ""
+authors = ["Fabricio"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+torch = "^2.4.1"
+loguru = "^0.7.2"
+numpy = "1.26.4"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
